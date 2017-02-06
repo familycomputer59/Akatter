@@ -1,38 +1,41 @@
 # Make the following application.
-## **1)You have to use Codenvy**
+## **1) You have to use Codenvy**
 ## **2) Aplication name is [test_app]**
-## **3) You have to use following command and code.([******]is Any string)**
+## **3) You have to use following command and code.([XXXXXX]is Any string)**
 * commands
 ```Bash
-rails new ******
+rails new XXXXXX
 ```
 ```Bash
-cd ******
+cd XXXXXX
 ```
 ```Bash
-rails g controller ****** ******
+rails g controller XXXXXX XXXXXX
 ```
 
+* routes.rb file
 ```ruby:routes.rb
 root "top#profile"
 
 get "top/index"
 ```
 
+* top_controller.rb file ([XXXXXX]is Any string)
 ```ruby:top_controller.rb
 def index
 
 end
 def profile
-  @hometown = "******"
-  @skills = "******"
-  @remarks = "******"
+  @hometown = "XXXXXX"
+  @skills = "XXXXXX"
+  @remarks = "XXXXXX"
 end
 ```
 
+* profile.html.erb file ([XXXXXX]is your name)
 ```ruby:profile.html.erb
 <div class="profile">
-  <h1>******</h1>
+  <h1>XXXXXX</h1>
   <div class="profile_image">
     <%= image_tag 'image.jpg' %>
   </div>
@@ -54,10 +57,12 @@ end
 </div>
 ```
 
-```ruby:profile.html.erb
-<h1>Hello ******</h1>
+* index.html.erb file ([XXXXXX]is your name)
+```ruby:index.html.erb
+<h1>Hello XXXXXX</h1>
 ```
 
+* profile.css file
 ```ruby:profile.css
 .profile {
   width: 960px;
