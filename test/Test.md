@@ -97,5 +97,5 @@ end
 * http://XXXXXX/top/index ([XXXXXX] is your application URL.)
 ![image2](image2.png "")
 
-* http://XXXXXX ([XXXXXX] is your application URL.)
+* http://XXXXXX ([XXXXXX] is your application URL.)(You can use your favorite image file.)
 ![image3](image3.png)
