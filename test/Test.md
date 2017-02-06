@@ -1,14 +1,17 @@
 # Make the following application.
 ## **1) You have to use Codenvy**
 ## **2) Aplication name is [test_app]**
-## **3) You have to use following command and code.([XXXXXX]is Any string)**
-* commands
+## **3) You have to use following command and code.**
+* commands (You need to change from [XXXXXX] to proper words)
+
 ```Bash
 rails new XXXXXX
 ```
+
 ```Bash
 cd XXXXXX
 ```
+
 ```Bash
 rails g controller XXXXXX XXXXXX
 ```
@@ -91,8 +94,8 @@ end
 ```
 
 ## **4) You have to make a same as following application images.**
-* http://nodeX.codenvy.io:XXXXXX/top/index ([X] vary from person to person.)
+* http://XXXXXX/top/index ([XXXXXX] is your application URL.)
 ![image2](image2.png "")
 
-* http://nodeX.codenvy.io:XXXXXX/ ([X] vary from person to person.)
+* http://XXXXXX ([XXXXXX] is your application URL.)
 ![image3](image3.png)
