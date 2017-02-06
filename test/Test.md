@@ -13,7 +13,7 @@ cd XXXXXX
 ```
 
 ```Bash
-rails g controller XXXXXX XXXXXX
+rails g controller top index
 ```
 
 
