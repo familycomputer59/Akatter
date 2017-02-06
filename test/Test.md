@@ -90,7 +90,9 @@ end
 }
 ```
 
+## **4) You have to make a same as following application images.**
+* http://nodeX.codenvy.io:XXXXXX/top/index ([X] vary from person to person.)
+![image2](image2.png "")
 
-* Aplication Image ([X] vary from person to person.)
-![image2](image2.png "http://nodeX.codenvy.io:XXXXXX/top/index")
-![image3](image3.png "http://nodeX.codenvy.io:XXXXXX/)
+* http://nodeX.codenvy.io:XXXXXX/ ([X] vary from person to person.)
+![image3](image3.png)
