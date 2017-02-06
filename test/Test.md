@@ -13,12 +13,14 @@ cd XXXXXX
 rails g controller XXXXXX XXXXXX
 ```
 
+
 * routes.rb file
 ```ruby:routes.rb
 root "top#profile"
 
 get "top/index"
 ```
+
 
 * top_controller.rb file ([XXXXXX]is Any string)
 ```ruby:top_controller.rb
@@ -31,6 +33,7 @@ def profile
   @remarks = "XXXXXX"
 end
 ```
+
 
 * profile.html.erb file ([XXXXXX]is your name)
 ```ruby:profile.html.erb
@@ -57,10 +60,12 @@ end
 </div>
 ```
 
+
 * index.html.erb file ([XXXXXX]is your name)
 ```ruby:index.html.erb
 <h1>Hello XXXXXX</h1>
 ```
+
 
 * profile.css file
 ```ruby:profile.css
@@ -85,6 +90,7 @@ end
 }
 ```
 
-![image1](image1.png)
-![image2](image2.png)
-![image3](image3.png)
+
+* Aplication Image ([X] vary from person to person.)
+![image2](image2.png "http://nodeX.codenvy.io:XXXXXX/top/index")
+![image3](image3.png "http://nodeX.codenvy.io:XXXXXX/)
