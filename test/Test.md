@@ -1,0 +1,85 @@
+# Make the following application.
+## **1)You have to use Codenvy**
+## **2) Aplication name is [test_app]**
+## **3) You have to use following command and code.([******]is Any string)**
+* commands
+```Bash
+rails new ******
+```
+```Bash
+cd ******
+```
+```Bash
+rails g controller ****** ******
+```
+
+```ruby:routes.rb
+root "top#profile"
+
+get "top/index"
+```
+
+```ruby:top_controller.rb
+def index
+
+end
+def profile
+  @hometown = "******"
+  @skills = "******"
+  @remarks = "******"
+end
+```
+
+```ruby:profile.html.erb
+<div class="profile">
+  <h1>******</h1>
+  <div class="profile_image">
+    <%= image_tag 'image.jpg' %>
+  </div>
+
+  <div class='profile_detail'>
+    <div class='label'>hometown<div>
+    <div class='value'><%= @hometown %></div>
+  </div>
+
+  <div class='profile_detail'>
+    <div class='label'>skills<div>
+    <div class='value'><%= @skills %></div>
+  </div>
+
+  <div class='profile_detail'>
+    <div class='label'>remarks<div>
+    <div class='value'><%= @remarks %></div>
+  </div>
+</div>
+```
+
+```ruby:profile.html.erb
+<h1>Hello ******</h1>
+```
+
+```ruby:profile.css
+.profile {
+  width: 960px;
+  margin: 0 auto;
+}
+.profile_image img{
+  width: 150px;
+  height: auto;
+  border: solid 1px #999999;
+}
+.profile_detail {
+  margin-top: 15px;
+}
+
+.profile_detail .label{
+  color: #999999;
+}
+.profile_detail .value{
+  color: #333333;
+}
+```
+
+![image1](image1.png)
+![image2](image2.png)
+![image3](image3.png)
